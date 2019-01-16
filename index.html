@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HALL OF FAME | STARFISH</title>
+  <!-- stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+</head>
+<body>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="max-w-md w-full lg:flex">
+            <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('https://greenhouse-florals.netlify.com/assets/images/shop-1.jpg')">
+            </div>
+            <div class="border-r border-b border-l border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+              <div class="mb-8">
+                <p class="text-sm text-grey-dark flex items-center">
+                  Lorem Ipsum
+                </p>
+                <div class="text-black font-bold text-xl mb-2">Lorem Ipsum</div>
+                <p class="text-grey-darker text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+              </div>
+              <div class="flex items-center">
+                <img class="w-10 h-10 rounded-full mr-4" src="https://greenhouse-florals.netlify.com/assets/images/woman.png">
+                <div class="text-sm">
+                  <p class="text-black leading-none">Name</p>
+                  <p class="text-grey-dark">Last Day - ?/??/????</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+
+        </div>
+        <div class="swiper-slide">
+
+        </div>
+        <div class="swiper-slide">
+
+        </div>
+        <div class="swiper-slide">
+
+        </div>
+        <div class="swiper-slide">
+
+        </div>
+        <div class="swiper-slide">
+
+        </div>
+        <div class="swiper-slide">
+
+        </div>
+        <div class="swiper-slide">
+
+        </div>
+        <div class="swiper-slide">
+
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+    });
+    </script>
+</body>
+</html>
