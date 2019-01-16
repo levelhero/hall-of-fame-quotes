@@ -6,80 +6,115 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>HALL OF FAME | STARFISH</title>
   <!-- stylesheets -->
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/css/uikit.min.css" />
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
 </head>
 <body>
+<div class="testimonials">
   <div class="swiper-container">
     <div class="swiper-wrapper">
+        <!-- ******************************
+
+        Rowel
+
+        ********************************* -->
         <div class="swiper-slide">
-          <div class="max-w-md w-full lg:flex">
-            <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('https://greenhouse-florals.netlify.com/assets/images/shop-1.jpg')">
-            </div>
-            <div class="border-r border-b border-l border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-              <div class="mb-8">
-                <p class="text-sm text-grey-dark flex items-center">
-                  Lorem Ipsum
-                </p>
-                <div class="text-black font-bold text-xl mb-2">Lorem Ipsum</div>
-                <p class="text-grey-darker text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+          <div class="testimonials-content" id="testimonials-one">
+            <div class="uk-card uk-card-default uk-width-1-2@m">
+              <div class="uk-card-header">
+                  <div class="uk-grid-small uk-flex-middle" uk-grid>
+                      <div class="uk-width-auto">
+                          <img class="uk-border-circle" width="40" height="40" src="images/avatar.jpg">
+                      </div>
+                      <div class="uk-width-expand">
+                          <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
+                          <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                      </div>
+                  </div>
               </div>
-              <div class="flex items-center">
-                <img class="w-10 h-10 rounded-full mr-4" src="https://greenhouse-florals.netlify.com/assets/images/woman.png">
-                <div class="text-sm">
-                  <p class="text-black leading-none">Name</p>
-                  <p class="text-grey-dark">Last Day - ?/??/????</p>
-                </div>
+              <div class="uk-card-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+              <div class="uk-card-footer">
+                  <a href="#" class="uk-button uk-button-text">Read more</a>
               </div>
             </div>
           </div>
-        </div>
+        </div> <!-- end of swiper slide -->
+
+        <!-- ******************************
+
+        Axl
+
+        ********************************* -->
         <div class="swiper-slide">
 
-        </div>
+        </div> <!-- end of swiper slide -->
+
+        <!-- ******************************
+
+        Dwezil
+
+        ********************************* -->
         <div class="swiper-slide">
 
-        </div>
+        </div> <!-- end of swiper slide -->
+
+        <!-- ******************************
+
+        Carmen
+
+        ********************************* -->
         <div class="swiper-slide">
 
-        </div>
+        </div> <!-- end of swiper slide -->
+
+        <!-- ******************************
+
+        Patrick
+
+        ********************************* -->
         <div class="swiper-slide">
 
-        </div>
+        </div> <!-- end of swiper slide -->
+
+        <!-- ******************************
+
+        Joelle
+
+        ********************************* -->
         <div class="swiper-slide">
 
-        </div>
+        </div> <!-- end of swiper slide -->
+
+        <!-- ******************************
+
+        Jean
+
+        ********************************* -->
         <div class="swiper-slide">
 
-        </div>
+        </div> <!-- end of swiper slide -->
+
+        <!-- ******************************
+
+        Myrrha
+
+        ********************************* -->
         <div class="swiper-slide">
 
-        </div>
-        <div class="swiper-slide">
-
-        </div>
-        <div class="swiper-slide">
-
-        </div>
-    </div>
+        </div> <!-- end of swiper slide -->
+    </div> <!-- end of swiper-wrapper -->
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
-  </div>
+  </div> <!-- end of swiper-container -->
+</div> <!-- end of testimonials -->
   <!-- scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="/assets/js/script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-        direction: 'vertical',
-        slidesPerView: 1,
-        spaceBetween: 30,
-        mousewheel: true,
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-    });
-    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit-icons.min.js"></script>
 </body>
 </html>
